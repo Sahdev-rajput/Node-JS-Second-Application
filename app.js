@@ -16,12 +16,12 @@ app.post("/",function(req,res)
     const dob=req.body.DOB;
     if(Clss==6 && dob=="2023-01-11")
     {
-        res.write("<h1 style='color:red'>Name : Aditya Thakur</h1>");
-        res.write("<h3 style='color:green'>Class: 6</h3>");
-        res.write("<h3 style='color:green'>Date of Birth: 01/11/2023</h3>");
-        res.write("<h2 style='color:blue'>Marks: 20</h3>");
-        res.write("<h2 style='color:blue'>Percentage of Marks Obtained : 80%</h2>");
-        res.write("<h2 style='color:blue'>Rank : 1</h2>");
+        res.write("Name : Aditya Thakur");
+        res.write("Class: 6");
+        res.write("Date of Birth: 01/11/2023");
+        res.write("Marks: 20</h3>");
+        res.write("Percentage of Marks Obtained : 80%<br>");
+        res.write("Rank : 1");
         res.send();
     }
     else
