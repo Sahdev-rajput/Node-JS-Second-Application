@@ -16,11 +16,11 @@ app.post("/",function(req,res)
     const dob=req.body.DOB;
     if(Clss==6 && dob=="2023-01-11")
     {
-        res.write("Name : Aditya Thakur");
-        res.write("Class: 6");
-        res.write("Date of Birth: 01/11/2023");
-        res.write("Marks: 20</h3>");
-        res.write("Percentage of Marks Obtained : 80%<br>");
+        res.write("Name : Aditya Thakur                                                                                                                      ");
+        res.write("Class: 6                                                                                                                                   ");
+        res.write("Date of Birth: 01/11/2023"                                                                                                                 );
+        res.write("Marks: 20                                                                                                                                 ");
+        res.write("Percentage of Marks Obtained : 80%                                                                                                         ");
         res.write("Rank : 1");
         res.send();
     }
