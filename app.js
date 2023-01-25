@@ -40,13 +40,13 @@ app.post("/",function(req,res)
     }
     else if(Clss==8 && dob=="2008-09-15")
     {
-        res.write("Name : Divy Pratap Singh                                                                                                                \n ");
+        res.write("Name : Divy Pratap Singh                                                                                                                \n\n");
         res.write("Class: 8                                                                                                                                  \n");
-        res.write("Date of Birth: 15/09/2008                                                                                                                  ");
-        res.write("Marks: 15.5                                                                                                                                 ");
-        res.write("Percentage of Marks Obtained : 51.6%                                                                                                       ");
-        res.write("Tution Fee Status : Due(Pending)                                                                                                           ");
-        res.write("Pending For the Month : Jan,Dec,Nov,Oct                                                                                                    ");
+        res.write("Date of Birth: 15/09/2008                                                                                                               \n\n\n");
+        res.write("Marks: 15.5                                                                                                                              \n\n\n ");
+        res.write("Percentage of Marks Obtained : 51.6%                                                                                                    \n\n\n");
+        res.write("Tution Fee Status : Due(Pending)                                                                                                         \n\n\n");
+        res.write("Pending For the Month : Jan,Dec,Nov,Oct                                                                                                 \n\n\n");
         res.write("Rank : 3");
         res.send();
     }
