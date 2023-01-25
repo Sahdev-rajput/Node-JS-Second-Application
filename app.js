@@ -23,6 +23,7 @@ app.post("/",function(req,res)
         res.write("Percentage of Marks Obtained : 80%                                                                                                         ");
         res.write("Rank : 1");
         res.send();
+        res.sendFile("/Prince Sengar.pdf");
     }
     else
     {
