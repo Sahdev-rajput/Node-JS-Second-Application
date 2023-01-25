@@ -40,8 +40,8 @@ app.post("/",function(req,res)
     }
     else if(Clss==8 && dob=="2008-09-15")
     {
-        res.write("Name : Divy Pratap Singh                                                                                                                   ");
-        res.write("Class: 8                                                                                                                                   ");
+        res.write("Name : Divy Pratap Singh                                                                                                                \n ");
+        res.write("Class: 8                                                                                                                                  \n");
         res.write("Date of Birth: 15/09/2008                                                                                                                  ");
         res.write("Marks: 15.5                                                                                                                                 ");
         res.write("Percentage of Marks Obtained : 51.6%                                                                                                       ");
