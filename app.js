@@ -14,16 +14,63 @@ app.post("/",function(req,res)
 {
     const Clss=req.body.Class;
     const dob=req.body.DOB;
-    if(Clss==6 && dob=="2023-01-11")
+    if(Clss==8 && dob=="2010-09-29")
     {
-        res.write("Name : Aditya Thakur                                                                                                                      ");
-        res.write("Class: 6                                                                                                                                   ");
-        res.write("Date of Birth: 01/11/2023                                                                                                                 ");
-        res.write("Marks: 20                                                                                                                                 ");
-        res.write("Percentage of Marks Obtained : 80%                                                                                                         ");
+        res.write("Name : Prince Sengar                                                                                                                        ");
+        res.write("Class: 8                                                                                                                                    ");
+        res.write("Date of Birth: 29/09/2010                                                                                                                   ");
+        res.write("Marks: 9.5                                                                                                                                  ");
+        res.write("Percentage of Marks Obtained : 31.6%                                                                                                        ");
+        res.write("Tution Fee Status : Due(Pending)                                                                                                            ");
+        res.write("Pending For the Month : January                                                                                                             ");
+        res.write("Rank : 4");
+        res.send();
+    }
+    else if(Clss==8 && dob=="2008-10-05")
+    {
+        res.write("Name : Yogavansh Raj Singh                                                                                                                  ");
+        res.write("Class: 8                                                                                                                                    ");
+        res.write("Date of Birth: 05/10/2008                                                                                                                   ");
+        res.write("Marks: 16                                                                                                                                   ");
+        res.write("Percentage of Marks Obtained : 53.3%                                                                                                        ");
+        res.write("Tution Fee Status : Due(Pending)                                                                                                            ");
+        res.write("Pending For the Month : January                                                                                                             ");
+        res.write("Rank : 2");
+        res.send();
+    }
+    else if(Clss==8 && dob=="2008-09-15")
+    {
+        res.write("Name : Divy Pratap Singh                                                                                                                   ");
+        res.write("Class: 8                                                                                                                                   ");
+        res.write("Date of Birth: 15/09/2008                                                                                                                  ");
+        res.write("Marks: 15.5                                                                                                                                 ");
+        res.write("Percentage of Marks Obtained : 51.6%                                                                                                       ");
+        res.write("Tution Fee Status : Due(Pending)                                                                                                           ");
+        res.write("Pending For the Month : Jan,Dec,Nov,Oct                                                                                                    ");
+        res.write("Rank : 3");
+        res.send();
+    }
+    else if(Clss==8 && dob=="2007-12-21")
+    {
+        res.write("Name : Santanu Singh                                                                                                                      ");
+        res.write("Class: 8                                                                                                                                  ");
+        res.write("Date of Birth: 21/12/2008                                                                                                                 ");
+        res.write("Marks: 9.5                                                                                                                                ");
+        res.write("Percentage of Marks Obtained : 31.6%                                                                                                      ");
+        res.write("Tution Fee Status : Due(Pending)                                                                                                          ");
+        res.write("Pending For the Month : January                                                                                                           ");
+        res.write("Rank : 4");
+        res.send();
+    }
+    else if(Clss==8 && dob=="2005-12-30")
+    {
+        res.write("Name : Pushpendra Kumar                                                                                                                    ");
+        res.write("Class: 8                                                                                                                                   ");
+        res.write("Date of Birth: 30/12/2005                                                                                                                  ");
+        res.write("Marks: 21                                                                                                                                  ");
+        res.write("Percentage of Marks Obtained : 70%                                                                                                         ");
         res.write("Rank : 1");
         res.send();
-        res.sendFile("/Prince Sengar.pdf");
     }
     else
     {
