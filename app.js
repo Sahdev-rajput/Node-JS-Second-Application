@@ -21,8 +21,6 @@ app.post("/",function(req,res)
         res.write("Date of Birth: 29/09/2010                                                                                                                   ");
         res.write("Marks: 9.5                                                                                                                                  ");
         res.write("Percentage of Marks Obtained : 31.6%                                                                                                        ");
-        res.write("Tution Fee Status : Due(Pending)                                                                                                            ");
-        res.write("Pending For the Month : January                                                                                                             ");
         res.write("Rank : 4");
         res.send();
     }
