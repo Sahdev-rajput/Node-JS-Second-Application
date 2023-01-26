@@ -21,7 +21,7 @@ app.post("/",function(req,res)
         res.write("Date of Birth: 29/09/2010                                                                                                                   ");
         res.write("Marks: 9.5                                                                                                                                  ");
         res.write("Percentage of Marks Obtained : 31.6%                                                                                                        ");
-        res.write("Rank : 4");
+        res.write("Rank : 6");
         res.send();
     }
     else if(Clss==8 && dob=="2008-10-05")
@@ -31,9 +31,7 @@ app.post("/",function(req,res)
         res.write("Date of Birth: 05/10/2008                                                                                                                   ");
         res.write("Marks: 16                                                                                                                                   ");
         res.write("Percentage of Marks Obtained : 53.3%                                                                                                        ");
-        res.write("Tution Fee Status : Due(Pending)                                                                                                            ");
-        res.write("Pending For the Month : January                                                                                                             ");
-        res.write("Rank : 2");
+        res.write("Rank : 4");
         res.send();
     }
     else if(Clss==8 && dob=="2008-09-15")
@@ -43,9 +41,7 @@ app.post("/",function(req,res)
         res.write("Date of Birth: 15/09/2008                                                                                                               \n\n\n");
         res.write("Marks: 15.5                                                                                                                              \n\n\n ");
         res.write("Percentage of Marks Obtained : 51.6%                                                                                                    \n\n\n");
-        res.write("Tution Fee Status : Due(Pending)                                                                                                         \n\n\n");
-        res.write("Pending For the Month : Jan,Dec,Nov,Oct                                                                                                 \n\n\n");
-        res.write("Rank : 3");
+        res.write("Rank : 5");
         res.send();
     }
     else if(Clss==8 && dob=="2007-12-21")
@@ -55,9 +51,7 @@ app.post("/",function(req,res)
         res.write("Date of Birth: 21/12/2008                                                                                                                 ");
         res.write("Marks: 9.5                                                                                                                                ");
         res.write("Percentage of Marks Obtained : 31.6%                                                                                                      ");
-        res.write("Tution Fee Status : Due(Pending)                                                                                                          ");
-        res.write("Pending For the Month : January                                                                                                           ");
-        res.write("Rank : 4");
+        res.write("Rank : 6");
         res.send();
     }
     else if(Clss==8 && dob=="2005-12-30")
@@ -68,6 +62,26 @@ app.post("/",function(req,res)
         res.write("Marks: 21                                                                                                                                  ");
         res.write("Percentage of Marks Obtained : 70%                                                                                                         ");
         res.write("Rank : 1");
+        res.send();
+    }
+    else if(Clss==7 && dob=="2007-12-06")
+    {
+        res.write("Name : Rishabh Sengar                                                                                                                    ");
+        res.write("Class: 7                                                                                                                                   ");
+        res.write("Date of Birth: 06/12/2007                                                                                                                  ");
+        res.write("Marks: 18.5                                                                                                                                  ");
+        res.write("Percentage of Marks Obtained : 61.67%                                                                                                         ");
+        res.write("Rank : 3");
+        res.send();
+    }
+    else if(Clss==6 && dob=="2008-08-05")
+    {
+        res.write("Name :Aditya Thakur                                                                                                                   ");
+        res.write("Class: 6                                                                                                                                   ");
+        res.write("Date of Birth: 05/08/2008                                                                                                                  ");
+        res.write("Marks: 19                                                                                                                                  ");
+        res.write("Percentage of Marks Obtained : 63.33%                                                                                                         ");
+        res.write("Rank : 2");
         res.send();
     }
     else
